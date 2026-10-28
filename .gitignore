@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local environment configuration & secrets
+.env
+*.local
+
+# Generated datasets
+data/*.csv
+data/*.json
+log_agent/data/*.csv
+log_agent/data/*.json
+
+# Streamlit local state
+.streamlit/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
